@@ -32,7 +32,7 @@ $bill = getBillByID($_SESSION['id_bill']);
             <img src="./assets/img/SalesGenius_SubOrders_1.gif" alt="" class="tick-img">
             <h4 class="font-weight-bold my-2">Cảm ơn bạn đã đặt hàng</h4>
             <h4 class="font-weight-bold my-2">Đơn hàng của bạn đang được xữ lý</h4>
-            <p>Một email xác nhận đã gữi tới <span class="d-block"><?php echo $bill["email"] ?></span> Xin bạn vui lòng kiểm tra email của bạn</p>
+
             <hr class="divider w-75">
             </hr>
             <div class="info-order mt-1 mx-auto w-75 ">

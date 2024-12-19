@@ -44,7 +44,7 @@ if (isset($_GET)) {
         <div class="mb-3">
             <div class="row">
                 <div class="col">
-                    <label for="color" class="form-label fw-bold" required>Màu sắc</label>
+                    <label for="color" class="form-label fw-bold" required>Dung tích</label>
                     <select class="form-select" id="color" name="color" required>
                         <?php echo renderComboboxColorSelected($product["id_color"]) ?>
                     </select>

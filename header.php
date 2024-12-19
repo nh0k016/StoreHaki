@@ -66,39 +66,41 @@
     <div class="row">
       <nav class=" navbar navbar-expand-lg navbar-light container">
         <!-- LOGO -->
-        <a class="navbar-brand" href="index.php"><img src="./assets/img/Logo_Ananas_Header.svg"></a>
+        <a class="navbar-brand" href="index.php"><img src="./assets/img/Logo_haki.svg"></a>
 
         <!-- MENU -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="nav navbar-nav m-auto">
             <li class=" nav-item dropdown">
+
               <a class="nav-link dropdown-toggle" href="./productList.php" id="navbarDropdown">SẢN PHẨM <span class="caret"></span></a>
               <!-- Sub menu 1 -->
               <ul class="dropdown-menu">
+
                 <li class="dropdown-item dropdown">
                   <a href="./productList.php?gender=1">CHO NAM <i class="fas fa-chevron-right dropdown-icon"></i></a>
                   <!-- Sub menu level 2 -->
                   <ul class="dropdown-menu">
-                    <li class="dropdown-item "><a href="./productList.php?gender=1&type=1">Giày</a></li>
-                    <li class="dropdown-item"><a href="./productList.php?gender=1&type=2">Áo</a></li>
-                    <li class="dropdown-item"><a href="./productList.php?gender=1">Phụ Kiện</a></li>
-                    <li class="dropdown-item "><a href="./productList.php?gender=1">THỜI TRANG & PHỤ KIỆN</a></li>
+                    <li class="dropdown-item "><a href="./productList.php?gender=1&type=2">Sữa rửa mặt</a></li>
+                    <li class="dropdown-item"><a href="./productList.php?gender=1&type=4">Kem chống nắng</a></li>
+                    <li class="dropdown-item"><a href="./productList.php?gender=1&type=5">Nước hoa </a></li>
+                    <li class="dropdown-item "><a href="./productList.php?gender=1&type=6"> PHỤ KIỆN</a></li>
                   </ul>
                 </li>
+
                 <li class="dropdown-item dropdown">
                   <a href="./productList.php?gender=2">CHO Nữ <i class="fas fa-chevron-right dropdown-icon"></i></a>
                   <!-- Sub menu level 2 -->
                   <ul class="dropdown-menu">
-                    <li class="dropdown-item "><a href="./productList.php?gender=2&type=1">Giày</a></li>
-                    <li class="dropdown-item"><a href="./productList.php?gender=2&type=2">Áo</a></li>
-                    <li class="dropdown-item"><a href="./productList.php?gender=2">Phụ Kiện</a></li>
-                    <li class="dropdown-item "><a href="./productList.php?gender=2">THỜI TRANG & PHỤ KIỆN</a></li>
+                    <li class="dropdown-item "><a href="./productList.php?gender=2&type=1">Tẩy trang</a></li>
+                    <li class="dropdown-item"><a href="./productList.php?gender=2&type=2">Sữa rửa mặt</a></li>
+                    <li class="dropdown-item"><a href="./productList.php?gender=2&type=4">Kem chống nắng </a></li>
+                    <li class="dropdown-item "><a href="./productList.php?gender=2&type=3">Serum & Kem dưỡng </a></li>
                   </ul>
                 </li>
-                <li class="dropdown-item"><a href="./productList.php">OUTLET SALE</a></li>
-                <li class="dropdown-item ">
-                  <a href="./productList.php">THỜI TRANG & PHỤ KIỆN</a>
-                </li>
+
+               
+                
               </ul>
             </li>
 
@@ -106,10 +108,10 @@
             <li class=" nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="./productList.php?gender=1" id="navbarDropdown">NAM <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li class="dropdown-item "><a href="./productList.php?gender=1&type=1">Giày</a></li>
-                <li class="dropdown-item"><a href="./productList.php?gender=1&type=2">Áo</a></li>
-                <li class="dropdown-item"><a href="./productList.php?gender=1">Phụ Kiện</a></li>
-                <li class="dropdown-item "><a href="./productList.php?gender=1">THỜI TRANG & PHỤ KIỆN</a></li>
+                <li class="dropdown-item "><a href="./productList.php?gender=1&type=2">Sữa rửa mặt</a></li>
+                <li class="dropdown-item"><a href="./productList.php?gender=1&type=4">Kem chống nắng </a></li>
+                <li class="dropdown-item"><a href="./productList.php?gender=1&type=5">Nước hoa</a></li>
+                <li class="dropdown-item "><a href="./productList.php?gender=1&type=6"> PHỤ KIỆN</a></li>
               </ul>
             </li>
 
@@ -117,26 +119,15 @@
             <li class=" nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="./productList.php?gender=2" id="navbarDropdown">NỮ<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li class="dropdown-item "><a href="./productList.php?gender=2&type=1">Giày</a></li>
-                <li class="dropdown-item"><a href="./productList.php?gender=2&type=2">Áo</a></li>
-                <li class="dropdown-item"><a href="./productList.php?gender=2">Phụ Kiện</a></li>
-                <li class="dropdown-item "><a href="./productList.php?gender=2">THỜI TRANG & PHỤ KIỆN</a></li>
+                <li class="dropdown-item "><a href="./productList.php?gender=2&type=1">Tẩy trang</a></li>
+                <li class="dropdown-item"><a href="./productList.php?gender=2&type=2">Sữa rửa mặt</a></li>
+                <li class="dropdown-item"><a href="./productList.php?gender=2&type=4">Kem chống nắng </a></li>
+                <li class="dropdown-item "><a href="./productList.php?gender=2&type=3">Serum & Kem dưỡng</a></li>
               </ul>
             </li>
 
             <li class="line"></li>
-            <li class=" nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="./productList.php" id="navbarDropdown">SALE OFF<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-item "><a href="./productList.php">10%</a></li>
-                <li class="dropdown-item"><a href="./productList.php">25%</a></li>
-                <li class="dropdown-item"><a href="./productList.php">40%</a></li>
-                <li class="dropdown-item "><a href="./productList.php">50%</a></li>
-              </ul>
-            </li>
-
-            <li class="line"></li>
-            <li><a class="nav-link" href="#"><img src="./assets/img/DiscoverYOU.svg"></a></li>
+            <li><a class="nav-link" href="#"><img src="./assets/img/Logo_phu.svg"></a></li>
           </ul>
           <!-- END MENU -->
 
@@ -161,13 +152,13 @@
           <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" data-interval="3000">
-                <div class="cont-item d-block w-100 text-center"><a href="./productList.php">FREE SHIPPING VỚI HOÁ ĐƠN TỪ 800K !</a></div>
+                <div class="cont-item d-block w-100 text-center"><a href="./productList.php">FREE SHIPPING VỚI HOÁ ĐƠN TỪ 500K !</a></div>
               </div>
               <div class="carousel-item" data-interval="3000">
-                <div class="cont-item d-block w-100  text-center"><a href="./productList.php">HÀNG 2 TUẦN NHẬN ĐỔI - GIÀY NỬA NĂM BẢO HÀNH</a></div>
+                <div class="cont-item d-block w-100  text-center"><a href="./productList.php">NHẬN ĐỔI TRẢ SẢN PHẨM TRONG VÒNG 3 NGÀY </a></div>
               </div>
               <div class="carousel-item" data-interval="3000">
-                <div class="cont-item d-block w-100  text-center"><a href="./productList.php">BUY MORE PAY LESS - ÁP DỤNG KHI MUA PHỤ KIỆN</a></div>
+                <div class="cont-item d-block w-100  text-center"><a href="./productList.php">NGUYỄN ĐỨC VINH-1911548048</a></div>
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
@@ -187,120 +178,4 @@
   </div>
   <!-- END HEADER-PC -->
 
-  <!-- HEADER MOBILE -->
-  <div class="header-mobile container-fluid d-block d-lg-none ">
-    <div class="row">
-      <div class="navbar center w-100">
-        <div class="navbar-header d-flex w-100">
-          <div class="col-xs-4 col-sm-4 navbar-brand"><a href="index.php"><img src="./assets/img/Logo_Ananas_Header.svg"></a>
-          </div>
-          <div class="col-6 col-sm-6 navbar-menu">
-            <a data-toggle="collapse" data-target=".group-search"><img src="./assets/img/mb_search.png"></a>
-            <a href="./index.php"><img src="./assets/img/mb_location.png"></a>
-            <a href="./yourCart.php"><img src="./assets/img/mb_cart.png"><span class="navbar-menu-count">(<span class="countProduct"><?php echo getCountCartDetail($id_cart); ?></span>)</span></a>
-          </div>
-
-          <!-- Button navbar -->
-          <div class="col-xs-1 col-sm-2">
-
-            <button id="btn--menu-mb" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent--moblie" aria-controls="navbarContent--moblie" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon text-white"></span>
-            </button>
-          </div>
-          <!-- Menu Mobile -->
-          <div class=" mobile_menu collapse navbar-collapse" id="navbarContent--moblie">
-            <ul class="nav navbar-nav m-auto">
-              <li class="nav-item ">
-                <a href="./productList.php" class="nav-link">SẢN PHẨM</a>
-              </li>
-              <li class="nav-item ">
-                <a href="./productList.php?gender=1" class="nav-link">NAM</a>
-              </li>
-              <li class="nav-item ">
-                <a href="./productList.php?gender=2" class="nav-link">NỮ</a>
-              </li>
-              <li class="nav-item ">
-                <a href="./productList.php" class="nav-link">SALE OFF</a>
-              </li>
-              <?php if ($currentUser) : ?>
-                <li class="nav-item ">
-                  <a href="./wishList.php" class="nav-link">YÊU THÍCH</a>
-                </li>
-                <li class="nav-item ">
-                  <a href="./logout.php" class="nav-link">ĐĂNG XUẤT</a>
-                </li>
-              <?php else : ?>
-                <li class="nav-item ">
-                  <a href="./login.php" class="nav-link">ĐĂNG NHẬP</a>
-                </li>
-              <?php endif; ?>
-              </li>
-            </ul>
-            <!-- END MENU -->
-          </div>
-
-        </div>
-      </div>
-
-
-      <div class="collapse navbar-collapse group-search">
-        <form id="formSearchAll" action="./productSearch.php" method="get">
-          <div class="input-group">
-            <input type="text" name="search" value="" class="form-control" placeholder="Tìm kiếm">
-            <span class="input-group-btn">
-              <button class="btn btn-search btn-search-all" type="btn"><img src="./assets/img/arrow_right.png"></button>
-            </span>
-          </div>
-        </form>
-        <div class="black-rect-bg"></div>
-      </div>
-
-
-      <div class="collapse navbar-collapse">
-
-      </div>
-    </div>
-
-    <!-- HOT NEWS SLIDE -->
-    <div class="row">
-      <div class="hot-news-cont">
-        <div class="hot-news-slide">
-          <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-interval="3000">
-                <div class="cont-item d-block w-100 text-center"><a href="https://ananas.vn/faqs/">FREE SHIPPING VỚI HOÁ ĐƠN TỪ 800K !</a></div>
-              </div>
-              <div class="carousel-item" data-interval="3000">
-                <div class="cont-item d-block w-100  text-center"><a href="https://ananas.vn/policy/">HÀNG 2 TUẦN NHẬN ĐỔI - GIÀY NỬA NĂM BẢO HÀNH</a></div>
-              </div>
-              <div class="carousel-item" data-interval="3000">
-                <div class="cont-item d-block w-100  text-center"><a href="https://ananas.vn/faq">BUY MORE PAY LESS - ÁP DỤNG KHI MUA PHỤ KIỆN</a></div>
-              </div>
-            </div>
-            <div class="carousel-item" data-interval="3000">
-              <div class="cont-item d-block w-100  text-center"><a href="https://ananas.vn/faq">BUY MORE PAY LESS - ÁP DỤNG
-                  KHI MUA PHỤ KIỆN</a></div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-              <span class="text-black carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-              <span class="text-black carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-        <span class="text-black carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-        <span class="text-black carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
-  <!-- END HEADER MOBILE -->
+  

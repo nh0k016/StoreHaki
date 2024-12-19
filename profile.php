@@ -38,7 +38,7 @@ if (isset($_FILES['avatar'])) {
         <h6 class="mt-3">Email: <?php echo $currentUser['email'] ?></h6>
         <h6 class="mt-3">Phone: <?php echo $currentUser['phone_number'] ?></h6>
         <h6 class="mt-3">Address: <?php echo $currentUser['address'] ?></h6>
-        <a href="./changePass.php" class="btn btn-success">Change password</a>
+     
       </div>
     </div>
     <?php include 'footer.php'; ?>

@@ -56,38 +56,15 @@ $title = $product["name"];
                     <div class="divider"></div>
                     <h6 class="mt-4 mb-4" id="desc"><?php echo $product["description"] ?></h6>
                     <div class="divider"></div>
-                    <!-- Color -->
-                    <div class="color">
-                        <ul class="nav tree">
-                            <li class="cb-color-fixed">
-                                <label data-link=""><span class="bg-color" style="background-color: <?php echo getCodeColor($product["id_color"]) ?>;"></span><input name="color" type="checkbox" value="#b4cfd9" hidden=""></label>
-                            </li>
-                        </ul>
-                    </div>
+                    
+                   
                     <div class="divider"></div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-6">
-                            <h5 class=" mt-2 font-weight-bold">SIZE</h5>
+                            <h5 class=" mt-2 font-weight-bold">DUNG TÍCH</h5>
                             <select id="size" class="custom-select btn-group bootstrap-select">
-                                <option value="29">29</option>
-                                <option value="30">30</option>
-                                <option value="31">31</option>
-                                <option value="32">32</option>
-                                <option value="33">33</option>
-                                <option value="34">34</option>
-                                <option value="35">35</option>
-                                <option value="36">36</option>
-                                <option value="37">37</option>
-                                <option value="38">38</option>
-                                <option value="39">39</option>
-                                <option value="40">40</option>
-                                <option value="41">41</option>
-                                <option value="42">42</option>
-                                <option value="43">43</option>
-                                <option value="44">44</option>
-                                <option value="45">45</option>
-                                <option value="46">46</option>
-                                <option value="47">47</option>
+                               
+                              
                             </select>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6">
@@ -148,12 +125,11 @@ $title = $product["name"];
                                     <div class="panel-body">
                                         <h6>
                                             <p>
-                                                Gender: Unisex<br>
-                                                Size run: 35 – 46<br>
-                                                Upper: Canvas<br>
-                                                Outsole: Rubber<br>
+                                                
+                                                Upper: Haki<br>
+                                                Outsole: ....<br>
                                             </p>
-                                            <p><img class="alignnone size-full wp-image-6905" src="https://ananas.vn/wp-content/uploads/Size-chart-1-e1559209680920.jpg" alt="" width="500" height="358"></p>
+                                            
                                         </h6>
                                     </div>
                                 </div>
@@ -175,13 +151,12 @@ $title = $product["name"];
                                         <h6>
                                             <ul>
                                                 <li>Chỉ đổi hàng 1 lần duy nhất, mong bạn cân nhắc kĩ trước khi quyết định.</li>
-                                                <li>Thời hạn đổi sản phẩm khi mua trực tiếp tại cửa hàng là 07 ngày, kể từ ngày mua. Đổi sản phẩm khi mua online là 14 ngày, kể từ ngày nhận hàng.</li>
+                                                <li>Thời hạn đổi sản phẩm khi mua trực tiếp tại cửa hàng là 3 ngày, kể từ ngày mua. Không nhận đổi sản phẩm khi mua hàng online.</li>
                                                 <li>Sản phẩm đổi phải kèm hóa đơn. Bắt buộc phải còn nguyên tem, hộp, nhãn mác.</li>
-                                                <li>Sản phẩm đổi không có dấu hiệu đã qua sử dụng, không giặt tẩy, bám bẩn, biến dạng.</li>
-                                                <li>GunoStore chỉ ưu tiên hỗ trợ đổi size. Trong trường hợp sản phẩm hết size cần đổi, bạn có thể đổi sang 01 sản phẩm khác:<br>
+                                                <li>Sản phẩm đổi không có dấu hiệu đã qua sử dụng, không bóc vỏ, móp, méo.</li>
+                                                <li>Trong trường hợp sản phẩm hết cần đổi, bạn có thể đổi sang 01 sản phẩm khác:<br>
                                                     - Nếu sản phẩm muốn đổi ngang giá trị hoặc có giá trị cao hơn, bạn sẽ cần bù khoảng chênh lệch tại thời điểm đổi (nếu có).<br>
                                                     - Nếu bạn mong muốn đổi sản phẩm có giá trị thấp hơn, chúng tôi sẽ không hoàn lại tiền.</li>
-                                                <li>Trong trường hợp sản phẩm - size bạn muốn đổi không còn hàng trong hệ thống. Vui lòng chọn sản phẩm khác.</li>
                                                 <li>Không hoàn trả bằng tiền mặt dù bất cứ trong trường hợp nào. Mong bạn thông cảm.</li>
                                             </ul>
                                         </h6>
@@ -201,9 +176,8 @@ $title = $product["name"];
                                     <div class="divider-1"></div>
                                     <div class="panel-body">
                                         <h6>
-                                            <p>Mỗi đôi giày GunoStore trước khi xuất xưởng đều trải qua nhiều khâu kiểm tra. Tuy vậy, trong quá trình sử dụng, nếu nhận thấy các lỗi: gãy đế, hở đế, đứt chỉ may,...trong thời gian 6 tháng từ ngày mua hàng, mong bạn sớm gửi sản phẩm về GunoStore nhằm giúp chúng tôi có cơ hội phục vụ bạn tốt hơn. Vui lòng gửi sản phẩm về bất kỳ cửa hàng GunoStore nào, hoặc gửi đến trung tâm bảo hành GunoStore ngay trong trung tâm TP.HCM trong giờ hành chính:</p>
-                                            <p>227, Nguyễn Văn Cừ, phường 4, quận 5, Hồ Chí Minh<br>
-                                                Hotline: 0845606616 </p>
+                                            <p>Vườn lài An Phú Đông Quận 12>
+                                                Hotline: 18006198 </p>
                                         </h6>
                                     </div>
                                 </div>

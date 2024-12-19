@@ -6,7 +6,7 @@
     <!-- Start footer -->
     <div class="footer mt-5">
       <div class="w-auto d-flex align-items-center justify-content-center" style="height:30px;background-color:#000;color:#fff;font-size:13px;">
-        Copyright ©2020 GunoStore. All rights reserved.
+         ©2023 Mỹ phẩm Haki Store. Liên hệ 18006198 để được tư vấn
       </div>
     </div>
 

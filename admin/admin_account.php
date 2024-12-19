@@ -1,4 +1,4 @@
-<?php $title = "Danh sách tài khoảng";?>
+<?php $title = "Danh sách tài khoản";?>
 <?php include './admin_header.php'; ?>
 <?php include './admin_side-menu.php'; ?>
 

@@ -1,6 +1,6 @@
 <?php
 require_once 'init.php';
-$title = "Guno Store";
+$title = "Haki Store";
 // Xử lý logic ở đây
 if (isset($_POST["unsetBill"])) {
   unset($_SESSION["id_bill"]);

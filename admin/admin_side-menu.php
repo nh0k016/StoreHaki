@@ -5,7 +5,7 @@
     <nav id="sidebar" class="sidebar-wrapper">
         <div class="sidebar-content">
             <div class="sidebar-brand">
-                <a href="../index.php">GUNO STORE</a>
+                <a href="../index.php">HAKI STORE</a>
                 <div id="close-sidebar">
                     <i class="fas fa-times"></i>
                 </div>
@@ -61,9 +61,7 @@
                                 <li>
                                     <a href="./admin_billAll.php"><i class="fas fa-clipboard-check"></i>Danh sách đơn hàng</a>
                                 </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-reply"></i>Trả hàng</a>
-                                </li>
+                               
                             </ul>
                         </div>
                     </li>
@@ -86,9 +84,7 @@
                                 <li>
                                     <a href="./admin_typeProducts.php"><i class="fas fa-layer-group"></i>Loại sản phẩm</a>
                                 </li>
-                                <li>
-                                    <a href="./admin_productsInStore.php"><i class="fas fa-store"></i>Kho</a>
-                                </li>
+                              
                             </ul>
                         </div>
                     </li>
@@ -104,9 +100,7 @@
                                 <li>
                                     <a href="./admin_dashbroad.php?option=day"><i class="fas fa-calendar-day"></i>Báo cáo bán hàng</a>
                                 </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-store"></i>Báo cáo kho</a>
-                                </li>
+                                
                             </ul>
                         </div>
                     </li>

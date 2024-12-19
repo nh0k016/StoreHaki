@@ -23,7 +23,6 @@
                         <option selected> -- Chọn giới tính -- </option>
                         <option value="1">Nam</option>
                         <option value="2">Nữ</option>
-                        <option value="3">Trẻ em</option>
                         <option value="3">Cả nam và nữ</option>
                     </select>
                 </div>
@@ -38,7 +37,7 @@
         <div class="mb-3">
             <div class="row">
                 <div class="col">
-                    <label for="color" class="form-label fw-bold" required>Màu sắc</label>
+                    <label for="color" class="form-label fw-bold" required>Dung tích</label>
                     <select class="form-select" id="color" name="color">
                         <?php echo renderSelectColor() ?>
                     </select>

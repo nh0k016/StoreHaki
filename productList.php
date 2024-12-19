@@ -16,7 +16,7 @@ else $products = getProductAll();
     <div class="container pt-3">
         <!-- List product -->
         <div class="row prd1-right-box d-none d-md-block" >
-            <img class="w-100 my-3" src="./assets/img/banner_productlist.jpg">
+            <img class="w-100 my-3" src="./assets/img/banner_productlist.png">
         </div>
         <div class="row prd1-right-items">
         <?php if($products):?>

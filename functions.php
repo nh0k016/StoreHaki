@@ -24,15 +24,15 @@ function sendMail($to, $subject, $content)
         $mail->isSMTP();                                            // Send using SMTP
         $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-        $mail->Username   = 'gunostoresaigon@gmail.com';                     // SMTP username
-        $mail->Password   = 'gunosaigon';                               // SMTP password
+        $mail->Username   = 'hakistore2200@gmail.com';                     // SMTP username
+        $mail->Password   = 'jnccotfdswhewrsp';                               // SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
         $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
         $mail->CharSet = 'UTF-8';
 
         //Recipients
-        $mail->setFrom('gunostoresaigon@gmail.com', 'GunoStore');
+        $mail->setFrom('hakistore2200@gmail.com', 'HakiStore');
         $mail->addAddress($to);     // Add a recipient
 
         // Content
@@ -350,7 +350,7 @@ function renderThumbnailAtProductList($id_product){
             </div>
             <div class="button">
                 <a class="btn btn-prd1-buynow d-none d-md-block" href="./products.php?id=' . $prd["id_product"] . '">MUA NGAY</a>
-                <a class="btn-prd1-heart addToWishList" id = "addToWishList-'. $prd["id_product"] .'" onclick = "addWishList(\''. $prd["id_product"] .'\')"></a>
+                <a class="btn-prd1-heart addToWishList" id = "addToWishList-'. $prd["id_product"] .'" onclick = "addWishList(\''. $prd["id_product"] .'\')"> </a>
             </div>
             <div class="caption">
                 <h3 class="name"><a href="./products.php?id=' . $prd["id_product"] . '">' . $prd["name"] . '</a>
@@ -576,7 +576,7 @@ function getTotalCart($id_cart)
 function getBillByID($id_bill)
 {
     global $db;
-    $stmt = $db->prepare("SELECT * FROM bill WHERE id = $id_bill");
+    $stmt = $db->prepare("SELECT * FROM bill WHERE id = ?");
     $stmt->execute(array($id_bill));
     return $stmt->fetch(PDO::FETCH_ASSOC);
 }
